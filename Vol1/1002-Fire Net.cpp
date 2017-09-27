@@ -3,7 +3,7 @@ using namespace std;
 
 char Map[4][4];			//地图信息
 int MaxHouse = 0;		//当前最多放置房子的数量
-int n;					//地图的边长
+int n;				//地图的边长
 
 /*
 	获得地图指定位置的索引号(从0开始，从左到右，从上到下依次递增)
