@@ -10,10 +10,10 @@ struct Square
 
 Square Squares[25];		//不同种类方块的信息
 int GameBoard[25];		//当前棋盘的状态(存储Squares中的索引号)
-int SquareNumber[25];	//不同种类方块的数目
+int SquareNumber[25];		//不同种类方块的数目
 int TypeNumber;			//方块种类的数目
 int TotalNumber;		//方块的总数目
-int N;					//棋盘的边长
+int N;				//棋盘的边长
 
 /*
 	从左到右从上到下依次尝试放入方块，尝试的过程中只需要和当前位置左边和上方的方块进行比较即可
