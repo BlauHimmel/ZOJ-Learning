@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-string WordA, WordB;	//原始字符串和目标字符串
-int Length;				//输入字符串的长度
+string WordA, WordB;		//原始字符串和目标字符串
+int Length;			//输入字符串的长度
 stack<char> Word;		//记录当前操作后字符串的状态
 vector<char> Op;		//记录当前已进行的操作
 
